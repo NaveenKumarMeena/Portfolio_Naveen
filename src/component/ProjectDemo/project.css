@@ -1,0 +1,99 @@
+
+.container{
+    margin: 0px 24px;
+    
+}
+.header{
+    padding: 20px;
+    width: 70%;
+    margin:0px 30px;
+    margin-bottom: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    padding: 10px;
+}
+.Project-tags{
+    margin-left: 40px;
+    margin-top: 71px;
+    display: flex;
+    max-width: 70%;
+    flex-wrap: wrap;
+}
+.tt{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.tagtitle{
+    margin-right: 24px;
+    margin-top: 71px;
+}
+.tags{
+    font-size: 22px;
+    padding: 4px 8px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.body{
+    margin: 20px 70px;
+}
+h2{
+    font-size: 32px;
+}
+.image{
+    width: 90%;
+    margin-bottom: 24px;
+    margin-top: 15px;
+}
+.videotags{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.videos{
+    height: 299px;
+    max-width: 31%;
+    margin-right: 24px;
+}
+.desc{
+    font-size: 24px;
+    text-align: center;
+}
+@media only screen and (max-width: 920px){
+    .MovieReview{
+        width: 100%;
+    } 
+    .header{
+        display: none;
+    }
+    .body{
+        margin: 0px 0px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .image{
+        width: 90%;
+    }
+    .desc{
+        text-align: left;
+    }
+    .videos{
+        max-width: 90%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    .videotags{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
+  
